@@ -1764,7 +1764,7 @@ char *Action< Actor >::BuildDecoratedName( char *name, const Action< Actor > *ac
 	const Action< Actor > *buried = action->GetActionBuriedUnderMe();
 	if ( buried )
 	{
-		Q_strcat( name, "<<", fudge );		
+		Q_strcat( name, "\n<<", fudge );		
 		BuildDecoratedName( name, buried );		
 	}
 	

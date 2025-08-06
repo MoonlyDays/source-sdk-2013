@@ -1786,10 +1786,10 @@ void CTFPlayerInventory::SOCacheSubscribed( const CSteamID & steamIDOwner, GCSDK
 	BaseClass::SOCacheSubscribed( steamIDOwner, eEvent );
 
 	UpdateRealTFLoadoutItems();
-	LoadLocalLoadout();
+	// LoadLocalLoadout();
 
-	VerifyChangedLoadoutsAreValid();
-	UpdateCachedServerLoadoutItems();
+	// VerifyChangedLoadoutsAreValid();
+	// UpdateCachedServerLoadoutItems();
 }
 
 //-----------------------------------------------------------------------------
