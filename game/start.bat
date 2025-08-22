@@ -1,1 +1,1 @@
-mod_tf_win64.exe -novid +map pl_enclosure_final +tf_bot_quota 1 -windowed -w 1280 -h 720
+mod_tf_win64.exe -novid +map itemtest +tf_bot_force_class engineer -windowed -w 1280 -h 720
